@@ -1,0 +1,15 @@
+** github
+config
+ssh e gpg
+nova
+
+** pelo cli do git bash
+ssh-keygen -t ed25519 -C holivane@gmail.com
+
+cat id_ed25519.pub 
+(copia a chave gerada e cola no github)
+
+** pelo cli dentro da pasta ssh
+eval $(ssh-agent -s)
+
+ssa-add id_ed25519

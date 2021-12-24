@@ -1,0 +1,13 @@
+ls - listar
+
+mkdir "nome da pasta" - cria pasta
+cd - navegar entre pastas
+git init - inicia o git
+ls -a - pastas ocultas
+.. - volta um nível
+git config --global user.email "e-mail"
+git config --global user.name "nome"
+# - markdown (nível de título)
+git add * - adiciona todos os arquivos
+git commit -m "mensagem"
+git status - monitora
