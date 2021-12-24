@@ -1,2 +1,51 @@
 Link para download do Git:https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git
+
+git init - inicia um diretório
+
+git add - inclui arquivo
+git commit - comita 
+git log - histórico
+git log --oneline (em uma linha)
+git log -p (mais detalhado)
+
+arquivo .gitignore
+
+mkdir - novo diretório
+servidor ->  git init --bare  >>repositório puro (poupa espaço)
+
+git remote add nomeDoRepositorio caminho/
+
+git clone
+git push
+git pull
+
+git rename nomeAntigo nomeNovo
+
+git log --graph
+
+(git pull antes de enviar as minhas modificações)
+
+BRANCHES (Ramos)
+criar - git branche 'nomeDaBranch'
+criar e entrar - git checkout -b 'nomeDaBranch'
+listar - git branch
+mudar - git checkout 'nomeDaBranch'
+unir linhas - git merge
+mesclar linhas - git rebase 'nomeDaBranch'
+
+git checkout - desfaz uma alteração não adicionada
+git reset - desfaz uma alteração adicionada e não commitada
+git reverse - desfaz um commit
+
+guardar pra depois - STASH
+
+git stash
+git stash list
+git stash apply
+git stash drop
+git stash pop
+
+git diff - diferença
+
+git tag -a {nome da tag}
