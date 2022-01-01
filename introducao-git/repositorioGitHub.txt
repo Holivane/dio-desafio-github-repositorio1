@@ -1,0 +1,15 @@
+Para criação de repositório no GitHub
+
+- Novo repositório
+- Dá um nome
+- Escolhe se será público ou privado
+- Descreve o repositório
+
+Repositórios que já exitem:
+- copia https
+- git remote add origin 'link https'
+'Origin pode ser substituído por outro nome. Você pode nomear como preferir, mas por padrão é usado a pasta origin'
+
+Enviar arquivos
+- git push -u origin master
+'-u' deixa sempre na master sem precisar digitar o origin
